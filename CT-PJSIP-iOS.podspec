@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 	s.description           = "Pod for distributing PJSIP 2.13 wrapped in a framework."
 	s.homepage              = "https://github.com/Cosmos-Technologies"
 
-	s.license               = { :type => "GNU GPLv3", :file => "LICENSE" }
+	s.license               = { :type => 'MIT', :file => 'LICENSE' }
 	s.author                = { "Devhouse Spindle" => "opensource@wearespindle.com" }
 
 	s.source                = { :git => "https://github.com/the-braveknight/Vialer-PJSIP-iOS.git", :tag => s.version.to_s }
