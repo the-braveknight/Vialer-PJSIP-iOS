@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 	s.platform              = :ios, "10.0"
 	s.requires_arc          = false
 
-	s.preserve_paths        = "VialerPJSIP.framework/*"
-	s.public_header_files   = "VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
-	s.source_files		    = "VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
-	s.vendored_frameworks   = "VialerPJSIP.framework"
+	#s.preserve_paths        = "VialerPJSIP.framework/*"
+	#s.public_header_files   = "VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
+	#s.source_files		= "VialerPJSIP.framework/Versions/A/Headers/**/*.{h,hpp}"
+	s.vendored_frameworks   = "VialerPJSIP.xcframework"
 
 	s.libraries 		= 'stdc++'
 	s.frameworks            = "AudioToolbox", "AVFoundation", "CFNetwork",  "CoreMedia"
